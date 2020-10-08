@@ -1,7 +1,7 @@
 export interface Flight {
     origin: string;
     destination: string;
-    flightNUmber: number;
+    flightNumber: number;
     depart: Date;
     arrive: Date;
     nonstop: boolean;
