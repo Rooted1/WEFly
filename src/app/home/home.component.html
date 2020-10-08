@@ -3,8 +3,8 @@
       <div class="flight_number"> {{flight.flightNumber}}</div>
       <div class="origin"> {{flight.origin}}</div>
       <div class="destination"> {{flight.destination}}</div>
-      <div class="departs"> {{flight.depart }}</div>
-      <div class="arrives"> {{flight.arrive }}</div>
+      <div class="departs"> {{flight.depart | date }}</div>
+      <div class="arrives"> {{flight.arrive | date }}</div>
       <div class="nonstop"> {{flight.nonstop}}</div>
     </div>
   <div>
